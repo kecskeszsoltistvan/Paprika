@@ -1,0 +1,18 @@
+body{
+    background-color: papayawhip;
+    color: saddlebrown;
+}
+ul{
+    list-style-image: url("kispaprika.png");
+}
+#fejlec{
+    background-image: url("fejlec.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a{
+    border: 2px cyan;
+}
