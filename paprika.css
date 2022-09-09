@@ -1,18 +1,53 @@
 body{
     background-color: papayawhip;
     color: saddlebrown;
+    width: 70%;
+    align-self: center;
+    margin-left: 15%;
 }
 ul{
     list-style-image: url("kispaprika.png");
+}
+li{
+    border: 1px rgb(40, 176, 255) solid;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 170px;
 }
 #fejlec{
     background-image: url("fejlec.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
+    height: 100px;
 }
 a{
-    border: 2px cyan;
+    color: black;
+}
+#menu{
+    float: left;
+}
+.kzp{
+    text-align: center;
+    width: 120px;
+}
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+}
+#cs1{
+    background-color: rgb(124, 252, 0);
+}
+#cs2{
+    background-color: rgb(255, 255, 224);
+}
+#cs3{
+    background-color: rgb(240, 128, 128);
+}
+#cs4{
+    background-color: rgb(207, 97, 252);
+}
+#tartalom{
+    float: right;
 }
