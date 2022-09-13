@@ -4,6 +4,7 @@ body{
     width: 70%;
     align-self: center;
     margin-left: 15%;
+    min-width: 500px;
 }
 ul{
     list-style-image: url("kispaprika.png");
@@ -20,12 +21,17 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 a{
     color: black;
 }
 #menu{
-    float: left;
+Padding-right: 10px;
+width: 20%;
+margin: 1%;
+display: inline-block;
 }
 .kzp{
     text-align: center;
@@ -49,5 +55,8 @@ table, th{
     background-color: rgb(207, 97, 252);
 }
 #tartalom{
+    width: 50%;
+    margin: 1%;
     float: right;
+    display: block;
 }
