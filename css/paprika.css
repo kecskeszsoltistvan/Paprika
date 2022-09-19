@@ -1,0 +1,176 @@
+@media (min-width:650px) {
+    body{
+        background-color: papayawhip;
+        color: saddlebrown;
+        width: 70%;
+        align-self: center;
+        margin-left: 15%;
+        min-width: 500px;
+    }
+    ul{
+        list-style-image: url("../img/kispaprika.png");
+    }
+    li{
+        border: 1px rgb(40, 176, 255) solid;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 170px;
+    }
+    #fejlec{
+        background-image: url("../img/fejlec.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    a{
+        color: black;
+    }
+    #menu{
+    Padding-right: 10px;
+    margin: 1%;
+    }
+    .kzp{
+        text-align: center;
+        width: 120px;
+    }
+    table, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 300px;
+    }
+    #cs1{
+        background-color: rgb(124, 252, 0);
+    }
+    #cs2{
+        background-color: rgb(255, 255, 224);
+    }
+    #cs3{
+        background-color: rgb(240, 128, 128);
+    }
+    #cs4{
+        background-color: rgb(207, 97, 252);
+    }
+    #tartalom{
+        margin: 1%;
+        float: right;
+    }
+}
+@media (max-width:650px) {
+    body{
+        background-color: papayawhip;
+        color: saddlebrown;
+        align-self: center;
+    }
+    ul{
+        list-style-image: url("../img/kispaprika.png");
+    }
+    li{
+        border: 1px rgb(40, 176, 255) solid;
+        background-color: white;
+        padding: 5px;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+        width: 70%;
+    }
+    #fejlec{
+        background-image: url("../img/fejlec.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        padding-top: 25px;
+        padding-left: 17%;
+    }
+    a{
+        color: black;
+    }
+    #menu{
+    Padding-right: 10px;
+    margin: 1%;
+    }
+    .kzp{
+        text-align: center;
+        width: 120px;
+    }
+    table, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #cs1{
+        background-color: rgb(124, 252, 0);
+    }
+    #cs2{
+        background-color: rgb(255, 255, 224);
+    }
+    #cs3{
+        background-color: rgb(240, 128, 128);
+    }
+    #cs4{
+        background-color: rgb(207, 97, 252);
+    }
+    #tartalom{
+        margin: 1%;
+        float: right;
+    }
+}
+@media (max-width:260px) {
+    body{
+        background-color: papayawhip;
+        color: saddlebrown;
+        align-self: center;
+    }
+    ul{
+        list-style-image: url("../img/kispaprika.png");
+    }
+    li{
+        border: 1px rgb(40, 176, 255) solid;
+        background-color: white;
+        padding: 5px;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+        width: 70%;
+    }
+    #fejlec{
+        background-image: url("../img/fejlec.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        padding-top: 25px;
+        padding-left: 17%;
+    }
+    a{
+        color: black;
+    }
+    #menu{
+    Padding-right: 10px;
+    margin: 1%;
+    }
+    .kzp{
+        text-align: center;
+        width: 120px;
+    }
+    table, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #cs1{
+        background-color: rgb(124, 252, 0);
+    }
+    #cs2{
+        background-color: rgb(255, 255, 224);
+    }
+    #cs3{
+        background-color: rgb(240, 128, 128);
+    }
+    #cs4{
+        background-color: rgb(207, 97, 252);
+    }
+    #tartalom{
+        margin: 1%;
+        float: right;
+    }
+}
