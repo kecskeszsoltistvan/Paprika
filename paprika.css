@@ -6,6 +6,9 @@ body{
     margin-left: 15%;
     min-width: 500px;
 }
+h1 h2 p a{
+    font-family: 'Times New Roman', Times, serif;
+}
 ul{
     list-style-image: url("kispaprika.png");
 }
