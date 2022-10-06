@@ -1,5 +1,6 @@
 .topnav {
     overflow: hidden;
+    background-color: rgb(189, 50, 50);
     width: 100%;
   }
   
@@ -7,18 +8,21 @@
     float: left;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
-    font-size: 17px;
-    color: darkred;
+    font-size: 14px;
+    color: rgb(255, 208, 0);
   }
   
   .topnav a:hover {
-    color: red;
+    color: white;
   }
   
   .topnav a.active {
-    color: black;
+    color: greenyellow;
+  }
+  .topnav a#leiras {
+    color: rgb(255, 208, 0);
   }
   
   .topnav .icon {
