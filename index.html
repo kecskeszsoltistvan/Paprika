@@ -1,4 +1,3 @@
-<!-- https://stackoverflow.com/questions/19572044/changing-html-content-order-depending-on-screen-size hasznos-->
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -8,10 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/paprika.css">
+    <link rel="stylesheet" href="hamburger.css">
     <title>Paprika</title>
 </head>
 <body>
-<div class="nagyk">
+<div class="nagyk"> <!-- nagyképernyős változat -->
     <div id="fejlec">
         <h1>Ismered a legcsípősebbet?</h1>
     </div>
@@ -52,19 +52,17 @@
         <h1>Ismered a legcsípősebbet?</h1>
     </div>
     <div class="topnav" id="myTopnav">
-    <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Közönséges paprika</b></a>
-    <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Cserjés paprika</b></a>
-    <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Kínai paprika</b></a>
-    <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Bogyós paprika</b></a>
-    <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Szőrös paprika</b></a>
-    <i class="fa fa-bars"></i>
-    </div>
-    
-        <div id="menu" class="container-fluid col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
-            <h2>Fajtái</h2>
-            <p>Öt faját, de sok változattal termesztik szerte a világon (Lásd: Hamburger menüben)</p>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
-        </div>
+        <a class="active"><b>Fajtái</b></a>
+        <a>Öt faja a paprikának, de sok változattal termesztik szerte a világon</a>
+        <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Közönséges paprika</b></a>
+        <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Cserjés paprika</b></a>
+        <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Kínai paprika</b></a>
+        <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Bogyós paprika</b></a>
+        <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Szőrös paprika</b></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
         <div id="tartalom" class="container-fluid col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <h2>Bemutatása</h2>
             <p>A paprika a burgonyafélék közé tartozó, Közép-Amerikából származó faj. Európába Kolumbusz orvosa hozta az első paprikát. A növény termése üreges bogyótermés, amely A- és C-vitaminban igen gazdag. Csípős ízét a kapszaicin nevű hatóanyag okozza. Jelentős fűszer- és gyógynövény. Magyarországon a XVI. század óta számos változatban termesztik.</p>
