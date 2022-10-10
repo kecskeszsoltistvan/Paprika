@@ -67,6 +67,10 @@
         .tkk{
             display: none;
         }
+        .okk{
+            display: none;
+        }
+        
     }
     @media (max-width:991px) and (min-width:769px) {
         body{
@@ -210,7 +214,6 @@
         .okk{
             display: none;
         }
-    
     }
 }
 @media (max-width:280px) and (min-width:192px){
@@ -226,6 +229,56 @@
     .okk{
         display: block;
     }
+    body{
+        background-color: papayawhip;
+        color: saddlebrown;
+        align-self: center;
+    }
+    #fejlec{
+        background-image: url("../img/fejlec.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        padding-top: 20px;
+        padding-left: 5%;
+        width: 110%;
+        color: white;
+    }
+    a{
+        color: black;
+    }
+    #menu{
+    padding-left: 15%;
+    }
+    .kzp{
+        text-align: center;
+        width: 120px;
+    }
+    table, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    #cs1{
+        background-color: rgb(124, 252, 0);
+    }
+    #cs2{
+        background-color: rgb(255, 255, 224);
+    }
+    #cs3{
+        background-color: rgb(240, 128, 128);
+    }
+    #cs4{
+        background-color: rgb(207, 97, 252);
+    }
+    #tartalom{
+        margin: 2.5%;
+        float: left;
+        width: 95%;
+    }
+    .topnav {
+        width: 110%;
+      }
 }
 @media (max-device-width:191px) {
     .kisk {
