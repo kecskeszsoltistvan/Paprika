@@ -136,6 +136,9 @@
         .tkk{
             display: none;
         }
+        .okk{
+            display: none;
+        }
     }
     @media (max-width:768px) {
         body{
@@ -204,14 +207,34 @@
         .tkk{
             display: none;
         }
+        .okk{
+            display: none;
+        }
     
     }
 }
-@media (max-device-width:279px) {
+@media (max-width:280px) and (min-width:192px){
     .kisk {
         display: none;
     }
     .nagyk {
+        display: none;
+    }
+    .tkk{
+        display: none;
+    }
+    .okk{
+        display: block;
+    }
+}
+@media (max-device-width:191px) {
+    .kisk {
+        display: none;
+    }
+    .nagyk {
+        display: none;
+    }
+    .okk{
         display: none;
     }
     .tkk{
