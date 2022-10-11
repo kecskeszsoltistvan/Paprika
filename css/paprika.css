@@ -217,22 +217,22 @@
     }
 }
 @media (max-width:280px) and (min-width:192px){
-    .kisk {
-        display: none;
-    }
-    .nagyk {
-        display: none;
-    }
-    .tkk{
-        display: none;
-    }
-    .okk{
-        display: block;
-    }
     body{
         background-color: papayawhip;
         color: saddlebrown;
         align-self: center;
+        width: 110%;
+    }
+    ul{
+        list-style-image: url("../img/kispaprika.png");
+    }
+    li{
+        border: 1px rgb(40, 176, 255) solid;
+        background-color: white;
+        padding: 5px;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+        width: 70%;
     }
     #fejlec{
         background-image: url("../img/fejlec.png");
@@ -240,9 +240,8 @@
         background-size: cover;
         height: 100px;
         padding-top: 20px;
-        padding-left: 5%;
-        width: 110%;
-        color: white;
+        padding-left: 7%;
+        color: whitesmoke;
     }
     a{
         color: black;
@@ -272,13 +271,23 @@
         background-color: rgb(207, 97, 252);
     }
     #tartalom{
-        margin: 2.5%;
+        margin: 2%;
         float: left;
-        width: 95%;
+        width: 96%;
     }
-    .topnav {
-        width: 110%;
-      }
+    
+    .kisk {
+        display: none;
+    }
+    .nagyk {
+        display: none;
+    }
+    .tkk{
+        display: none;
+    }
+    .okk{
+        display: block;
+    }
 }
 @media (max-device-width:191px) {
     .kisk {
@@ -297,6 +306,7 @@
         background-color: papayawhip;
         color: saddlebrown;
         align-self: center;
+        width: 93%;
     }
     #problemo{
         width: 60%;
@@ -305,6 +315,8 @@
     }
     p{
         text-align: center;
+        width: 90%;
+        margin-left: 5%;
     }
     header{
         text-align: center;

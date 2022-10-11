@@ -86,13 +86,13 @@
   <header>2022 Kecskés Zsolt István © Minden jog fenntartva</header>
   <img src="img/kispaprika.png" alt="Baj van!" id="problemo">
   <p><b>Túl kis méretű a képernyőd!</b></p>
-  <p>Ez a probléma 280px-nél kisebb képernyőknél fordul elő. Kérjük (ha tud) váltson át egy 280 pixelnél szélesebb eszközre.</p>
+  <p>Ez a probléma 192px-nél kisebb képernyőknél fordul elő (Az a képernyő méret kisebb egy átlagos okoskarkötő szélességénél). Kérjük (ha tud) váltson át egy 280 pixelnél szélesebb eszközre.</p>
 </div>
 <div class="okk"> <!-- okoskarkötő változat -->
     <div id="fejlec">
         <h1>Ismered a legcsípősebbet?</h1>
     </div>
-    <div class="topnav" id="myTopnav">
+    <div class="topnav" id="myTopnav2">
         <a class="active"><b>Fajtái</b></a>
         <a id="leiras"><cite>Öt faja a paprikának, de sok változattal termesztik szerte a világon</cite></a>
         <a href="https://hu.wikipedia.org/wiki/Kezd%C5%91lap" target="_blank"><b>Közönséges paprika</b></a>
@@ -104,7 +104,7 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-    </div>
+
         <div id="tartalom" class="container-fluid col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <h2>Bemutatása</h2>
             <p>A paprika a burgonyafélék közé tartozó, Közép-Amerikából származó faj. Európába Kolumbusz orvosa hozta az első paprikát. A növény termése üreges bogyótermés, amely A- és C-vitaminban igen gazdag. Csípős ízét a kapszaicin nevű hatóanyag okozza. Jelentős fűszer- és gyógynövény. Magyarországon a XVI. század óta számos változatban termesztik.</p>
@@ -131,6 +131,12 @@
         x.className += " responsive";
       } else {
         x.className = "topnav";
+      }
+      var y = document.getElementById("myTopnav2");
+      if (y.className === "topnav") {
+        y.className += " responsive";
+      } else {
+        y.className = "topnav";
       }
     }
     </script>
