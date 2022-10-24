@@ -57,7 +57,6 @@
         #tartalom{
             margin: 1%;
             float: right;
-            background-color: rgba(0, 0, 0, 0.1);
         }
         .kisk {
             display: none;
@@ -201,7 +200,6 @@
             margin: 5%;
             float: left;
             width: 90%;
-            background-color: rgba(0, 0, 0, 0.1);
         }
         
         .kisk {
@@ -276,7 +274,6 @@
         margin: 2%;
         float: left;
         width: 96%;
-        background-color: rgba(0, 0, 0, 0.1);
     }
     
     .kisk {
